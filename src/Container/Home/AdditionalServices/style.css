@@ -1,0 +1,14 @@
+.additionalServiceCard {
+  position: relative;
+}
+
+.additionalServiceCard .adServiceDes {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.additionalServiceCard:hover .adServiceDes {
+  display: flex;
+  opacity: 1;
+}

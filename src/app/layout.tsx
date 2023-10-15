@@ -1,8 +1,7 @@
-import FooterComponent from "@/components/view/Footer/Footer";
+import { Footer } from "@/components/Shared/Footer";
 import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "./lib/Providers";
-import { Footer } from "@/components/Shared/Footer";
 
 export const metadata: Metadata = {
   title: "Kinsley - Hotel & Restaurant",
@@ -18,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          {children}
+          <div className="bg-base-100">{children}</div>
           <Footer />
         </Providers>
       </body>

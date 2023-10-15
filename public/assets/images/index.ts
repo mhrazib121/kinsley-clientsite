@@ -1,3 +1,4 @@
+import { service } from "./../../Data/common";
 import appInstalImg from "./App Instal Img.svg";
 import freeTrial from "./Free Trial.png";
 import growRetailFaster from "./GrowRetailFaster.svg";

@@ -27,7 +27,8 @@ const additionalServiceData: {
 
 const AdditionalServices = () => {
   return (
-    <Container className="bg-base-100">
+    <Container className="bg-base-100 py-12">
+      <h1 className="text-center text-3xl my-12">Additional Facilities</h1>
       <div className="flex flex-col md:flex-row justify-center items-center md:justify-between relative ">
         {additionalServiceData.map((data) => (
           <div key={data.title} className="relative group mb-4 md:mb-0">

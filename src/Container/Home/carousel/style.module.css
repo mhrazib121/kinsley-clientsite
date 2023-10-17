@@ -1,0 +1,23 @@
+.carousel_container {
+  @apply relative;
+}
+.img_container {
+  @apply w-full h-full flex mx-auto;
+}
+.img {
+  @apply rounded-3xl w-full h-full;
+}
+/* .LeftArrow {
+  @apply z-10 rounded-full bg-gray-200 hover:bg-primary cursor-pointer absolute top-[48%] tablet:top-[45%] left-[2%] w-[30px] h-[30px] tablet:w-[40px]
+  tablet:h-[40px] laptop:w-[50px] laptop:h-[50px];
+} */
+/* .RightArrow {
+  @apply z-10 rounded-full bg-gray-200 hover:bg-primary cursor-pointer absolute top-[48%] tablet:top-[45%]  right-[2%] w-[30px] h-[30px] tablet:w-[40px]
+  tablet:h-[40px] laptop:w-[50px] laptop:h-[50px];
+} */
+.dotIconContainer {
+  @apply flex gap-3 z-10 absolute top-[90%] left-[50%];
+}
+.dotIcon {
+  @apply z-10 w-[18px] h-[18px] rounded-full bg-orange-600 cursor-pointer;
+}

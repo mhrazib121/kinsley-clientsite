@@ -1,5 +1,5 @@
-import { IMissionVisionValue } from "@Interface/data/missionVisionValue";
-import { mission, value, vision } from "@public/assets/images";
+import { IMissionVisionValue } from "@/interfaces/data/missionVisionValue";
+import { mission, value, vision } from "../assets/images";
 
 export const missionVisionValueData: IMissionVisionValue[] = [
   {

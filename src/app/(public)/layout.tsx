@@ -1,4 +1,3 @@
-import { Header } from "@/components/Shared";
 import PublicHeader from "@/components/view/Header/PublicHeader/PublicHeader";
 
 export default function PublicLayout({

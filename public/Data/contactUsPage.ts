@@ -3,7 +3,7 @@ import {
   mapContact,
   messageContact,
   phoneContact,
-} from "@public/assets/icon";
+} from "../assets/icon";
 
 export const contactData = [
   {

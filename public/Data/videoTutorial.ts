@@ -1,4 +1,4 @@
-import { IVideoTutorial } from "@Interface";
+import { IVideoTutorial } from "@/interfaces";
 
 export const videoTutorialData: IVideoTutorial[] = [
   {

@@ -1,6 +1,6 @@
 "use client";
 
-import { InputFieldProps } from "@Interface";
+import { InputFieldProps } from "@/interfaces";
 
 export const InputField = ({
   label,

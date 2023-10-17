@@ -18,7 +18,7 @@ const Navbar = ({
 }: {
   items: { key: string; label: string; href: string }[];
   hasSider?: boolean;
-  session: boolean;
+  session?: boolean;
 }) => {
   console.log(session, "session");
   const pathname = usePathname();

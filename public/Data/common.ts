@@ -1,4 +1,4 @@
-import { INavItems } from "@Interface";
+import { INavItems } from "@/interfaces";
 
 export const support: INavItems[] = [
   {

@@ -1,6 +1,6 @@
 "use client";
 
-import { IMainContainer } from "@Interface";
+import { IMainContainer } from "@/interfaces";
 
 export const MainContainer = ({
   bg = "default",

@@ -1,8 +1,6 @@
 "use client";
 
 import { BackgroundImage, Container } from "@/components/Common";
-// import { BackgroundImage, Container } from "@Components/Common";
-// import { homeSupportBg } from "@public/assets/images";
 import SupportBox from "./SupportBox";
 import SupportLeft from "./SupportLeft";
 import { homeSupportBg } from "../../../../public/assets/images";

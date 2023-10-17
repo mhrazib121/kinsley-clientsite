@@ -1,6 +1,6 @@
 "use client";
 
-import { IListItem } from "@Interface";
+import { IListItem } from "@/interfaces";
 import { CommonText } from "./CommonText";
 
 export const ListItem = ({ dot = "md", label, active }: IListItem) => (

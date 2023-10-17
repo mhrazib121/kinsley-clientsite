@@ -1,6 +1,6 @@
 "use client";
 
-import { ITextAndFont } from "@Interface";
+import { ITextAndFont } from "@/interfaces";
 
 export interface IConnectDesk extends ITextAndFont {
   logo?: boolean;

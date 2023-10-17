@@ -1,6 +1,6 @@
 "use client";
 
-import { IComponentHeader } from "@Interface";
+import { IComponentHeader } from "@/interfaces";
 
 export const ComponentHeader = ({
   title,

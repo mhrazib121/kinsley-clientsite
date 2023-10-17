@@ -1,4 +1,4 @@
-import { IPrivatePolicyData } from "@Interface/data/policyPage";
+import { IPrivatePolicyData } from "@/interfaces/data/policyPage";
 
 export const privatePolicyData: IPrivatePolicyData[] = [
   {

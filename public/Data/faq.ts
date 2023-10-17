@@ -1,6 +1,6 @@
 "use client";
 
-import { ISingleFAQ } from "@Interface";
+import { ISingleFAQ } from "@/interfaces";
 
 export const faqData: ISingleFAQ[] = [
   {

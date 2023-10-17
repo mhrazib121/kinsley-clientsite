@@ -1,6 +1,6 @@
 "use client";
 
-import { IChildrenWithClass } from "@Interface";
+import { IChildrenWithClass } from "@/interfaces";
 
 export const Container = ({ children, className }: IChildrenWithClass) => {
   return (

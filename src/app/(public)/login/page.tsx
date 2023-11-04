@@ -2,7 +2,7 @@
 import { Button } from "@/components/Common";
 import InputField from "@/components/Common/InputField";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // import Logo from "../components/ui/Logo";
 
@@ -53,9 +53,12 @@ const Login = () => {
             handleOnChange={setPassword}
           />
 
-          <div className="w-full bg-blue-700 hover:bg-blue-500 rounded-md flex flex-col items-center mb-12">
-            <Button variant="primary">Sign In </Button>
-          </div>
+          <Button
+            variant="primary"
+            className="w-full bg-blue-700 hover:bg-blue-500 rounded-md flex flex-col items-center my-6"
+          >
+            Sign In{" "}
+          </Button>
         </form>
         <Link
           href="/register"

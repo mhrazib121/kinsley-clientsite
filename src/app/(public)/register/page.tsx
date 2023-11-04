@@ -69,9 +69,9 @@ const Register = () => {
             value={password}
             handleOnChange={setPassword}
           />
-          <div className="w-full bg-blue-700 hover:bg-blue-700 rounded-md flex flex-col items-center mb-12">
-            <Button variant="primary">Sign up</Button>
-          </div>
+          {/* <div > */}
+            <Button variant="primary" className="w-full bg-blue-700 hover:bg-blue-700 rounded-md flex flex-col items-center my-6" >Sign up</Button>
+          {/* </div> */}
         </form>
         <a href="/login" className="text-sm flex gap-2 justify-center mb-6">
           Already have an account?{" "}

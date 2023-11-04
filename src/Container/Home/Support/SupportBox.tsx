@@ -1,6 +1,6 @@
 "use client";
 
-import { CommonText, ComponentHeader, ConnectDesk } from "@/components/Common";
+import { CommonText, ComponentHeader, } from "@/components/Common";
 import SupportCard from "./SupportCard";
 import { corporateSupport } from "../../../../public/Data";
 

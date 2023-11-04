@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ConnectDesk } from "./ConnectDesk";
 import { logo } from "../../../public/assets";
 
 export const Logo = () => (

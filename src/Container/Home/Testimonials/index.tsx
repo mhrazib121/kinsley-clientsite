@@ -1,7 +1,8 @@
 import { BackgroundImage } from "@/components/Common";
+import ColorText from "@/components/Common/ColorText";
+import Image from "next/image";
 import { FaQuoteLeft } from "react-icons/fa";
 import { faces1, testimonialBanner } from "../../../../public/assets/images";
-import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -17,9 +18,7 @@ const Testimonials = () => {
               <div className="flex flex-col lg:flex-row lg:px-12 px-5 my-10 gap-5">
                 {/* Header */}
                 <div className="w-full lg:w-7/12 flex flex-col justify-start items-start gap-5">
-                  <span className="text-2xl font-serif font-bold text-secondary">
-                    Our Testimonials
-                  </span>
+                  <ColorText>Our Testimonials</ColorText>
                   <h2 className="text-4xl md:text-5xl font-bold text-white font-serif">
                     Good Reviews By <br />{" "}
                     <span className="text-primary">Clients</span>

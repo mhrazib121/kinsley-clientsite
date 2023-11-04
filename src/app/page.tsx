@@ -7,6 +7,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "./lib/AuthOptions";
 import Carousel from "@/Container/Home/carousel";
 import { carouselData } from "@/Container/Home/carousel/carouselData";
+import Partners from "@/Container/Home/Partners";
 
 export default async function Home() {
   const session = await getServerSession(authOptions);
@@ -23,6 +24,7 @@ export default async function Home() {
       <Testimonials />
       <AdditionalServices />
       <Support />
+      <Partners />
 
       <div className="min-h-[calc(10vh-6px)]"> </div>
     </div>
